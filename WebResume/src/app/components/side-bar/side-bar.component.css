@@ -1,0 +1,45 @@
+.side-bar {
+  position: fixed;
+  width: 300px;
+  height: auto;
+  background: hsl(0, 0%, 15%);
+  margin-top: 35px;
+  margin-left: 30px;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+.name-and-photo {
+  padding-top: 60px;
+  display: grid;
+  justify-content: center;
+}
+.name-and-photo h2 {
+  padding-top: 10px;
+}
+.name-and-photo span {
+  font-size: .8em;
+  margin: 0 auto 0;
+  padding: 10px 15px 10px;
+  background: hsl(0, 0%, 20%);
+  border: none;
+  border-radius: 10px;
+}
+.photo {
+  width: 160px;
+  height: 160px;
+  background: hsl(0, 0%, 20%);
+  border: none;
+  border-radius: 20px;
+  margin: 0 auto 0;
+}
+.contact-and-info {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.contact-and-info span {
+  display: block;
+}
+.contact-info-label {
+  color: hsl(0, 0%, 50%);
+}

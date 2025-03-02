@@ -1,0 +1,21 @@
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+}
+.icon {
+  width: 60px;
+  height: 60px;
+  background: hsl(0, 0%, 20%);
+  margin: 25px 20px 0;
+  border: none;
+  border-radius: 15px;
+  box-shadow: -1px -1px hsla(0, 0%, 100%, 0.5);
+}
+.text {
+  margin-top: 35px;
+  margin-right: auto;
+}
+.email-address {
+  max-width: 200px;
+  font-size: .75em;
+}
